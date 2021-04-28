@@ -1,0 +1,39 @@
+.red {
+	color: #ee2537;
+}
+.pink {
+	color: #f4b3c7;
+}
+.blue {
+	color: #a0dde7;
+}
+.darkBlue {
+	color: #012b65;
+}
+.whiteColor{
+	color: #fff;
+}
+.typeLight{
+	font-weight: 400;
+}
+.typeRegular{
+	font-weight: 500;
+}
+.typeBold{
+	font-weight: 700;
+}
+
+.gridServicios{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto auto auto auto auto auto auto;
+	grid-template-areas: 
+	"headerS headerS"
+	"serviciosS serviciosS"
+	"imgAsesoriaS asesoriaS"
+	"investigacionS imgInvS"
+	"imgBrandingS brandingS"
+	"disenoWebS imgDisenoWS"
+	"imgContenidoRS contenidoRS"
+	"footer footer"
+	;
